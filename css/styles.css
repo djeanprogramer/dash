@@ -1,0 +1,88 @@
+b_bkp {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3a7bd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.centered {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.right {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.left {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.text_bold {
+    font-weight: bold
+}
+
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #626e7a, #4c5481, #2a3e68, #131563);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #626e7a, #4c5481, #2a3e68, #131563);
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
+}
+
+.error-message {
+    font-size: 0.85rem;
+    color: red;
+  }
+  
+.bg-tcheturbo-roxo {
+    background: #d73187;
+}
+
+.text-tcheturbo-roxo {
+    color: #d73187;
+  }
+
+.gb-tcheturbo-azul{
+    background: #154b77
+}
+
+.text-tcheturbo-azul {
+    color: #154b77;
+  }
+
+  .text-erro {
+    color: red;
+  }
+
+  .container_logo img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
